@@ -39,10 +39,12 @@
             border: none;
             border-radius: 8px;
             font-size: 16px;
+            box-sizing: border-box; /* Ensures padding doesn't affect width */
         }
 
         button {
             width: 100%;
+            max-width: 200px; /* Limits button width for better visual balance */
             padding: 12px;
             background-color: #00d4ff;
             color: #1a1a2e;
@@ -50,7 +52,8 @@
             border: none;
             border-radius: 8px;
             cursor: pointer;
-            margin-top: 10px;
+            margin: 10px auto; /* Centers button horizontally */
+            display: block; /* Ensures margin auto works for centering */
         }
 
         .toggle-link {
