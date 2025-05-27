@@ -189,3 +189,32 @@ canvas {
       margin-bottom: 20px;
   }
 }
+/* Reset Password Page Button Styling */
+.reset-container button {
+  background-color: #00d4ff;
+  color: #1a1a2e;
+  font-weight: bold;
+  cursor: pointer;
+  width: auto;               /* Fit to content */
+  padding: 12px 24px;        /* Comfortable spacing */
+  display: block;            /* Allows margin auto */
+  margin: 8px auto;          /* Center horizontally */
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.auth-container button {
+  background-color: #00d4ff;
+  color: #1a1a2e;
+  font-weight: bold;
+  cursor: pointer;
+  width: auto;               /* Fit content */
+  padding: 12px 24px;        /* Balanced spacing */
+  display: block;            /* Block to center using margin auto */
+  margin: 10px auto 0 auto;  /* Top margin and center horizontally */
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
